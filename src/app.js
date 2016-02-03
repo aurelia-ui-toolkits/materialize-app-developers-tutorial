@@ -7,7 +7,8 @@ export class App {
       { route: 'child-router',  name: 'child-router', moduleId: 'child-router', nav: true, title: 'Child Router' },
       { route: 'md-select',  name: 'md-select', moduleId: 'material/select/md-select', nav: true, title: 'Select' },
       { route: 'md-button',  name: 'md-button', moduleId: 'material/button/md-button', nav: true, title: 'Button' },
-      { route: 'md-slider',  name: 'md-slider', moduleId: 'material/slider/md-slider', nav: true, title: 'Slider' }
+      { route: 'md-slider',  name: 'md-slider', moduleId: 'material/slider/md-slider', nav: true, title: 'Slider' },
+      { route: 'md-collapsible',  name: 'md-collapsible', moduleId: 'material/collapsible/md-collapsible', nav: true, title: 'Collapsible' }
     ]);
 
     this.router = router;
