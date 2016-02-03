@@ -21,6 +21,7 @@ System.config({
     "aurelia-history-browser": "npm:aurelia-history-browser@1.0.0-beta.1.1.1",
     "aurelia-loader-default": "npm:aurelia-loader-default@1.0.0-beta.1.1.1",
     "aurelia-logging-console": "npm:aurelia-logging-console@1.0.0-beta.1.1.3",
+    "aurelia-materialize-bridge": "github:aurelia-ui-toolkits/aurelia-materialize-bridge@master",
     "aurelia-router": "npm:aurelia-router@1.0.0-beta.1.1.0",
     "aurelia-templating-binding": "npm:aurelia-templating-binding@1.0.0-beta.1.1.0",
     "aurelia-templating-resources": "npm:aurelia-templating-resources@1.0.0-beta.1.1.0",
@@ -32,6 +33,19 @@ System.config({
     "fetch": "github:github/fetch@0.10.1",
     "font-awesome": "npm:font-awesome@4.5.0",
     "text": "github:systemjs/plugin-text@0.0.3",
+    "github:Dogfalo/materialize@0.97.5": {
+      "css": "github:systemjs/plugin-css@0.1.20",
+      "jquery": "github:components/jquery@2.2.0"
+    },
+    "github:aurelia-ui-toolkits/aurelia-materialize-bridge@master": {
+      "aurelia-binding": "npm:aurelia-binding@1.0.0-beta.1.1.1",
+      "aurelia-dependency-injection": "npm:aurelia-dependency-injection@1.0.0-beta.1.1.2",
+      "aurelia-logging": "npm:aurelia-logging@1.0.0-beta.1.1.1",
+      "aurelia-metadata": "npm:aurelia-metadata@1.0.0-beta.1.1.3",
+      "aurelia-task-queue": "npm:aurelia-task-queue@1.0.0-beta.1.1.0",
+      "aurelia-templating": "npm:aurelia-templating@1.0.0-beta.1.1.0",
+      "materialize": "github:Dogfalo/materialize@0.97.5"
+    },
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },
