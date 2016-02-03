@@ -1,0 +1,16 @@
+<template>
+  <h4>Materialize select demo</h4>
+  <div class="row">
+    <div class="col s4">
+      <select md-select="selected.two-way: selectedMeal;">
+        <option>Select your meal</option>
+        <option repeat.for="meal of food" model.bind="meal">
+          ${meal.name}
+        </option>
+      </select>
+    </div>
+    <div show.bind="selectedMeal" class="col s4">
+      You selected: ${ selectedMeal }!
+    </div>
+  </div>
+</template>
