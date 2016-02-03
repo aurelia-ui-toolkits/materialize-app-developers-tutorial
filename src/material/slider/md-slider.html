@@ -1,0 +1,15 @@
+<template>
+  <h4>Materialize slider demo</h4>
+  <div class="container">
+    <div class="row">
+      <div class="col s8">
+        <md-slider>
+          <md-slide repeat.for="slide of slides" img.bind="slide.img" caption-align.bind="img.align">
+            <h3>${slide.heading}</h3>
+            <h5>${slide.subheading}</h5>
+          </md-slide>
+        </md-slider>
+      </div>
+    </div>
+  </div>
+</template>
