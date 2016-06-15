@@ -1,3 +1,6 @@
+import jQuery from 'jquery';
+window.jQuery = window.$ = jQuery;
+
 export function configure(aurelia) {
   aurelia.use
     .standardConfiguration()
